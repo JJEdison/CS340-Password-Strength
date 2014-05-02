@@ -198,9 +198,9 @@ void scoreBreakdown(string pwd)
         << "Below Minimum Characters: -" << minimumChars(pwd) << endl
         << "Common Password Penalty: -" << commonPassword(pwd) << endl
         << "Letters Only Penalty: -" << lettersOnly(pwd) << endl
-        << "Numbers Only Pentaly: -" << numbersOnly(pwd) << endl
+        << "Numbers Only Penalty: -" << numbersOnly(pwd) << endl
         << "Repeat Characters Penalty: -" << repeatChars(pwd) << endl
-        << "Consectutive Uppercase Penalty: -" << consecutiveUpper(pwd) << endl
+        << "Consecutive Uppercase Penalty: -" << consecutiveUpper(pwd) << endl
         << "Consecutive Lowercase Penalty: -" << consecutiveLower(pwd) << endl
         << "Consecutive Numbers Penalty: -" << consecutiveNumbers(pwd) << endl
         << "Sequential Alphanumerics Penalty: -" << sequentialAlNum(pwd) << endl;
